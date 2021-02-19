@@ -1,0 +1,179 @@
+<html>
+
+<head>
+    <title>Pagina 3</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" href="css/custom.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+        crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <nav id="div1" class="botton grey darken-4">
+        <div class="container row">
+            <div class=" navi nav-wrapper col s12">
+                <img src="logo.png" class=" logo left responsiv-img">
+                <ul id="nav-mobile" class="mob left hide-on-med-and-down">
+                    <li>
+                        <a href="sass.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="badges.html">Explore</a>
+                    </li>
+                    <li>
+                        <a href="#">About us</a>
+                    </li>
+                </ul>
+                <div class="bot right hide-on-med-and-down">
+
+                    <p>Call our helpline</p>
+                    <a class="p">700-1234-5678</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="mid container">
+        <div class="content-elements">
+            <div class="row">
+                <form autocomplete="off" class="form">
+
+                    <div class="row">
+
+                        <div class="input-field  col l3 m6 s12">
+                            <i class="material-icons prefix">search</i>
+                            <input id="icon_prefix" type="text" class="autocomplete">
+                            <label for="icon_prefix">Destination</label>
+                        </div>
+                        <div class="input-field col l3 m6 s12">
+                            <i class="material-icons prefix">grid_on</i>
+                            <input type="text" class="datepicker" id="check-in">
+                            <label for="check-in">Check-in date</label>
+                        </div>
+
+                        <div class="input-field col l3 m6 s12">
+                            <i class="material-icons prefix">grid_off</i>
+                            <input type="text" class="datepicker" id="check-out">
+                            <label for="check-out">Check-out date</label>
+                        </div>
+                        <div class="search-btn col l3 m6 s12">
+                            <a class="waves-effect waves-light btn" style="margin-top: 20px;">Search</a>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="sort-by card ">
+                <div class="tab">
+                    <p>Sort by:</p>
+                    <div class="isort">
+                        <i class="fas fa-angle-up" id="alphabeticallySort"></i>
+                        <i class="fas fa-angle-down" id="reverseSort"></i>
+                    </div>
+                    <p>Name</p>
+                    <div class="isort">
+                        <i class="fas fa-angle-up" id="ascendingOrder"></i>
+                        <i class="fas fa-angle-down" id="descendingOrder"></i>
+                    </div>
+                    <p>Price</p>
+                </div>
+                <div class="sort">
+                    <div class="positon">
+                        <i class="grid-view fas fa-list green-text text-accent-4" data-view="list" id="listView"></i>
+                        <i class="list-view fas fa-th-large green-text text-accent-4" data-view="grid" id="gridView"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="compareContainer" id="modal">
+                <div class="compare-elements"></div>
+                <div class="compare-button">
+                  <a class="waves-effect waves-light btn compare-btn">Compare</a>
+                </div>
+              </div>
+            <div class="search-results" id="house-container">
+            </div>
+        </div>
+        <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
+  <button data-target="modal1" class="btn modal-trigger">Modal</button>
+    </div>
+
+
+    <footer class="page-footer grey darken-4">
+        <div class="container adc">
+            <div class="footer-left">
+                <div class="row">
+                    <a href="#" class="inf col l4 m6 s12">Home</a>
+                    <a href="#" class="inf col l4 m6 s12">Explore</a>
+                    <a href="#" class="inf col l4 m6 s12">About us</a>
+                    <a href="#" class="inf col l4 m6 s12">Newsletter</a>
+                    <div class="text1 col l4 m6 s12">
+                        <a href="#">Your Email Address</a>
+                    </div>
+                    <div class="text2 col l4 m6 s12">
+                        <a href="#">Subscribe</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-right">
+                <div class="row">
+                    <div class="Icn col m2">
+                        <i class="material-icons">place</i>
+                    </div>
+                    <div class="inf col m10">
+                        <p>28 JACKSON BLD STE 1020</p>
+                        <p>CHICAGO. IL 60604-2340</p>
+
+                        <div>Follow us :
+                            <a href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa"></i>
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright  green accent-4">
+            <div class="container foot">
+                <div>
+                    © 2016 Travel | All Rights Reserved
+                </div>
+                <div class="abc">
+                    <a class="grey-text text-lighten-4" href="#">Terms&Conditions</a>
+                    <a class="grey-text text-lighten-4" href="#">Privacy Policy</a>
+                    <a class="grey-text text-lighten-4" href="#">FAQ</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+
+
+</html>
